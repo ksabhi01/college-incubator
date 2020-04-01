@@ -1,0 +1,80 @@
+nav {
+    background: #ca3433;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#discover {
+    background: url(../images/video-img.png);
+    height: 500px;
+    padding: 50px;
+    width: 80%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+}
+#logo{
+	height: 3em;
+}
+#video_button {
+    margin-top: 300px;
+
+}
+
+#video_button i {
+
+    padding: 30px;
+    background: #002CB4;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+    box-shadow: 0.1px 1px 1px #000;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+#discover:hover #video_button i {
+    background: #fff;
+    color: #002CB4;
+    border: 5px solid #002CB4;
+}
+
+#proud {
+    text-align: center;
+    margin: 200px 0px;
+}
+
+#proud h1 {
+    color: #3D3D3D;
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+#proud p {
+    color: gray;
+    margin-top: 30px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#proud .row>div:hover {
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    box-shadow: 1px 5px 5px gray;
+}
